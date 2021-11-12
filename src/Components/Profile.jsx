@@ -3,6 +3,7 @@ import React from 'react'
 const style = {
     display: "flex",
     justifyContent: "space-between",
+    fontFamily: 'Ubuntu',
     marginBottom: "30px"
 }
 
@@ -11,6 +12,7 @@ const buttonStyle ={
     padding: "20px 60px",
     fontSize: "20px",
     borderRadius: "10px",
+    fontFamily: 'Ubuntu',
     color: "white",
    border: "none"
 }
