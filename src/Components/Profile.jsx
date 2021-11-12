@@ -24,7 +24,6 @@ const Profile = () => {
                 <h1>Edit public </h1> 
                 <h1>Profile</h1>
                 </div>
-               
                 <button style={buttonStyle}> View my Profile </button>
             
             
