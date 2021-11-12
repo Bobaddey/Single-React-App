@@ -1,15 +1,12 @@
 .menubar {
-    background-color: rgb(215, 221, 223);
+    
     width: 90vw;
     padding:5px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 0.5px solid grey;
     margin-bottom: 30px;
 };
-/* .menuItem {
-    padding: 10px;
-    margin-right: 5px;
-}; */
 
 button{
     padding: 10px;
@@ -19,15 +16,10 @@ button{
     margin-right: 5px;
 }
 
-.menuItem{
+.menuItem:hover{
     padding: 10px;
-    background-color: blue;
-
+    background-color: rgb(203, 228, 236);
+    color:rgb(9, 43, 54);
     font-size: 32px;
     margin-right: 50px;
-};
-.menuItem, menuItem:hover {
-    padding: 10px;
-    background-color: white;
-    margin-right: 5px;
 };
