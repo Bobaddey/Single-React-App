@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav ul{
+  display: flex;
+  }
+
+section{
+  width: 90vw;
+  margin: auto auto;
+}
+.items{
+  margin-bottom: 30px;
+}
+
+.section{
+  padding: 10px;
+  border-bottom: 5px solid black;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+/* .menubar{
+  display: grid;
+} */
+
+/* .bookcart {
+  width: 100vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: flex;
+} */
+
+.book{
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width:768px){
+  .bookcart{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
