@@ -10,6 +10,7 @@ const style = {
   display: "flex",
   padding:"20px 0",
   fontSize:"30px",
+  fontFamily: 'Ubuntu',
   justifyContent: "space-between",
   borderBottom:"0.5px solid grey",
   marginBottom: "30px"
@@ -18,7 +19,7 @@ const style = {
 function Bookcart(){
   return (
     <>
-        <section>
+        <section className="bookcart">
           <div style={style}>Settings</div>
           <Nav/>
           <Profile className="items"/>
