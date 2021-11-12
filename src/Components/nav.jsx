@@ -13,9 +13,9 @@ const style ={
 }
 const Nav = () => {
     return (
-        <nav className="menubar">
-            <ul className="">
-                <li style={{}} style={style} className="menuItem">Public Profile</li>
+        <nav className="">
+            <ul className="menubar">
+                <li style={style} className="menuItem">Public Profile</li>
                 <li style={style} className="menuItem">Account</li>
                 <li style={style} className="menuItem">Availability</li>
                 <li style={style} className="menuItem">Support </li>
